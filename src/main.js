@@ -21,3 +21,12 @@ document.querySelectorAll(".qanak button").forEach(button => {
     });
 });
 //
+
+//gisheranoc
+document.querySelectorAll(".options button").forEach(button => {
+    button.addEventListener("click", () => {
+        document.querySelectorAll(".options button")
+            .forEach(btn => btn.classList.remove("yntrvac"));
+        button.classList.add("yntrvac");
+    });
+});
