@@ -47,3 +47,36 @@ header{
   color: gray;
   padding: 20px;
 }
+
+.mas1 {
+    width: 230px;
+    padding: 20px;
+    border: 1px solid #dedee5;
+    border-radius: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.mas1 h2 {
+    font-size: 18px;
+}
+
+.regions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.region {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.region input {
+    width: 15px;
+    height: 15px;
+    accent-color: #080808;
+    cursor: pointer;
+}
