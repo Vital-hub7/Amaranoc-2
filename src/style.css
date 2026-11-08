@@ -96,17 +96,18 @@ header {
   align-items: center;
   justify-content: space-between;
   margin-top: 50px;
-  gap: 10px;
+  gap:2px;
 }
 
 .price span {
+  margin-right: 25px;
   font-size: 17px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .price button {
-  width: 45px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border: 1px solid rgb(178, 178, 178);
   border-radius: 50%;
   font-size: 17px;
@@ -116,4 +117,21 @@ header {
 .price button.activ {
   background-color: #101b35;
   color: white;
+}
+
+
+.price-inputs {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  gap: 6px;
+}
+
+.price-inputs input {
+  width: 50%;
+  height: 45px;
+  padding: 0 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 14px;
 }
