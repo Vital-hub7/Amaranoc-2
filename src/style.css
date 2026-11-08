@@ -1,46 +1,52 @@
-
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-header{
+header {
   width: 100%;
 }
-.head{
+
+.head {
   padding-top: 30px;
   display: flex;
   justify-content: center;
   gap: 160px;
 }
+
 .logo img {
-    display: block;
-    width: 150px;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  width: 150px;
+  max-width: 100%;
+  height: auto;
 }
-.bajinner{
+
+.bajinner {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 50px;
 }
-.bajinner a{
+
+.bajinner a {
   text-decoration: none;
   color: black;
-  font-size: 18px;  
+  font-size: 18px;
 }
-.search{
-    display: flex;
-    align-items: center;
-    gap: 30px;
+
+.search {
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
-.search i{
+
+.search i {
   padding-top: 10px;
   font-size: 20px;
   color: rgb(42, 42, 42);
 }
-.search input{
+
+.search input {
   width: 200px;
   height: 5px;
   border-radius: 20px;
@@ -49,34 +55,65 @@ header{
 }
 
 .mas1 {
-    width: 230px;
-    padding: 20px;
-    border: 1px solid #dedee5;
-    border-radius: 20px;
-    font-family: Arial, sans-serif;
+  width: 230px;
+  padding: 20px;
+  border: 1px solid #dedee5;
+  border-radius: 20px;
+  font-family: Arial, sans-serif;
 }
 
 .mas1 h2 {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .regions {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .region {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    font-size: 17px;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 17px;
+  cursor: pointer;
 }
 
 .region input {
-    width: 15px;
-    height: 15px;
-    accent-color: #080808;
-    cursor: pointer;
+  width: 15px;
+  height: 15px;
+  accent-color: #080808;
+  cursor: pointer;
+}
+
+.count {
+  color: #555;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  gap: 10px;
+}
+
+.price span {
+  font-size: 17px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.price button {
+  width: 45px;
+  height: 40px;
+  border: 1px solid rgb(178, 178, 178);
+  border-radius: 50%;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.price button.activ {
+  background-color: #101b35;
+  color: white;
 }
