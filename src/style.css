@@ -70,13 +70,16 @@ header {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  height: 140px;
+  overflow: auto;
 }
 
 .region {
   display: flex;
   align-items: center;
   gap: 15px;
-  font-size: 17px;
+  color: #555;
+  font-size: 16px;
   cursor: pointer;
 }
 
@@ -89,6 +92,19 @@ header {
 
 .count {
   color: #555;
+}
+
+.regions::-webkit-scrollbar {
+    width: 6px;
+}
+
+.regions::-webkit-scrollbar-thumb {
+    background: #999;
+    border-radius: 10px;
+}
+
+.regions::-webkit-scrollbar-track {
+    background: #eee;
 }
 
 .price {
