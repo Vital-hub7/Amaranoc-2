@@ -43,3 +43,12 @@ document.querySelectorAll(".options button").forEach(button => {
         button.classList.add("yntrvac");
     });
 });
+
+//senyakner
+    document.querySelectorAll(".options2 button").forEach(button => {
+        button.addEventListener("click", () => {
+            document.querySelectorAll(".options2 button")
+                .forEach(btn => btn.classList.remove("yntrvac2"));
+            button.classList.add("yntrvac2");
+        });
+    });

@@ -231,3 +231,23 @@ header {
     background: #10172e;
     color: white;
 }
+
+.options2 {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.options2 button {
+    padding: 15px 20px;
+    border: 1px solid rgb(217, 216, 216); 
+    border-radius: 30px;
+    background: #f5f5f5;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.options2 button.yntrvac2 {
+    background: #10172e;
+    color: white;
+}
