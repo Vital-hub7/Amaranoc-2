@@ -70,7 +70,7 @@ header {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  height: 13 0px;
+  height: 130px;
   overflow: auto;
 }
 
@@ -290,4 +290,54 @@ header {
 .options4 button.yntrvac4 {
     background: #10172e;
     color: white;
+}
+
+.advantage {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 240px;
+  overflow: auto;
+}
+
+.advent {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #555;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.advent input {
+  width: 15px;
+  height: 15px;
+  accent-color: #080808;
+  cursor: pointer;
+}
+.advantage::-webkit-scrollbar {
+    width: 6px;
+}
+
+.advantage::-webkit-scrollbar-thumb {
+    background: #999;
+    border-radius: 10px;
+}
+
+.advantage::-webkit-scrollbar-track {
+    background: #eee;
+}
+
+.top-buttons {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 35px;
+}
+
+.top-buttons button {
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    background: white;
+    cursor: pointer;
 }
