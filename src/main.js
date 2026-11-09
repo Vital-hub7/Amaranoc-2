@@ -53,11 +53,20 @@ document.querySelectorAll(".options2 button").forEach(button => {
     });
 });
 
-//senyakner
+//sanhanguycner
 document.querySelectorAll(".options3 button").forEach(button => {
     button.addEventListener("click", () => {
         document.querySelectorAll(".options3 button")
             .forEach(btn => btn.classList.remove("yntrvac3"));
         button.classList.add("yntrvac3");
+    });
+});
+
+//loxavazan
+document.querySelectorAll(".options4 button").forEach(button => {
+    button.addEventListener("click", () => {
+        document.querySelectorAll(".options4 button")
+            .forEach(btn => btn.classList.remove("yntrvac4"));
+        button.classList.add("yntrvac4");
     });
 });

@@ -62,15 +62,15 @@ header {
   font-family: Arial, sans-serif;
 }
 
-.mas1 h2 {
-  font-size: 18px;
+.mas1 h3 {
+  font-size: 16px;
 }
 
 .regions {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  height: 140px;
+  height: 13 0px;
   overflow: auto;
 }
 
@@ -79,7 +79,7 @@ header {
   align-items: center;
   gap: 15px;
   color: #555;
-  font-size: 16px;
+  font-size: 15px;
   cursor: pointer;
 }
 
@@ -268,6 +268,26 @@ header {
 }
 
 .options3 button.yntrvac3 {
+    background: #10172e;
+    color: white;
+}
+
+.options4 {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.options4 button {
+    padding: 15px 20px;
+    border: 1px solid rgb(217, 216, 216); 
+    border-radius: 30px;
+    background: #f5f5f5;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.options4 button.yntrvac4 {
     background: #10172e;
     color: white;
 }
