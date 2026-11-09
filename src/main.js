@@ -45,10 +45,19 @@ document.querySelectorAll(".options button").forEach(button => {
 });
 
 //senyakner
-    document.querySelectorAll(".options2 button").forEach(button => {
-        button.addEventListener("click", () => {
-            document.querySelectorAll(".options2 button")
-                .forEach(btn => btn.classList.remove("yntrvac2"));
-            button.classList.add("yntrvac2");
-        });
+document.querySelectorAll(".options2 button").forEach(button => {
+    button.addEventListener("click", () => {
+        document.querySelectorAll(".options2 button")
+            .forEach(btn => btn.classList.remove("yntrvac2"));
+        button.classList.add("yntrvac2");
     });
+});
+
+//senyakner
+document.querySelectorAll(".options3 button").forEach(button => {
+    button.addEventListener("click", () => {
+        document.querySelectorAll(".options3 button")
+            .forEach(btn => btn.classList.remove("yntrvac3"));
+        button.classList.add("yntrvac3");
+    });
+});
