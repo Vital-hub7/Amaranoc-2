@@ -438,5 +438,6 @@ header {
 
 .card h2 {
     margin-top: 12px;
-    font-size: 30px;
+    font-size: 25px;
+    color: #555;
 }
