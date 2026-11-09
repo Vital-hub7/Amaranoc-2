@@ -8,7 +8,6 @@ document.querySelectorAll(".qanak button").forEach(button => {
     button.addEventListener("click", () => {
         const id = button.dataset.qanak;
         const number = document.getElementById(id);
-
         let value = Number(number.value);
 
         if (button.classList.contains("plus")) {
@@ -20,7 +19,21 @@ document.querySelectorAll(".qanak button").forEach(button => {
         number.value = value;
     });
 });
-//
+
+// tuyaktreli qanaky2
+document.querySelectorAll(".qanak2 button").forEach(button => {
+    button.addEventListener("click", () => {
+        const id = button.dataset.qanak2;
+        const number = document.getElementById(id);
+        let value = Number(number.value) || 0;
+        if (button.classList.contains("plus2")) {
+            value++;
+        } else if (value > 0) {
+            value--;
+        }
+        number.value = value;
+    });
+});
 
 //gisheranoc
 document.querySelectorAll(".options button").forEach(button => {
