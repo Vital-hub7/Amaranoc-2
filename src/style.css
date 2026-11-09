@@ -409,3 +409,34 @@ header {
     background: #10172e;
     color: white;
 }
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 15px;
+}
+
+.card img {
+    width: 330px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.card-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.card-info h3 {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card h2 {
+    margin-top: 12px;
+    font-size: 30px;
+}
